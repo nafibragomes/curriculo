@@ -1,0 +1,46 @@
+
+:root {
+    /* perfil de cores*/
+    --primary-color:#732634;
+    --secondary-color:#D9B4BE;
+    --tertiary-color: #D9C2A7;
+    --quaternary-color:#d0868b;
+    --quinary-color:#8C2641;
+    --ligth-color: white;
+    --dark-color:black;
+    --grayscale:#f2f2f2;
+
+
+/* Tamanhos Padrões */
+--extra-small-size: 4px;
+--small-size: 8px;
+--medium-size: 16px;
+--large-size: 32px;
+--extra-large-size: 64px;
+}
+
+.header{
+    background: rgb(235,238,238);
+    background: linear-gradient(0deg, rgba(235,238,238,1) 0%, rgba(200,100,107,1) 100%);
+}
+
+.header__title {
+    color: var(--ligth-color);
+}
+
+.header__social-icons {
+    color: var(--ligth-color);
+}
+.skills__column-left {
+    background: var(--quaternary-color);
+}
+
+.skills__title {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.skills__label {
+    font-size: 0.8rem;
+    color: var(--ligth-color);
+}
